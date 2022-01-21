@@ -8,48 +8,86 @@ body {
   padding: 2rem;
 }
 
-.card {
+.container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.card-1 {
   display: flex;
   flex-direction: column;
+  margin: 1rem 0.5rem;
   height: 30%;
   max-width: 30%;
+  min-width: 100px;
   border-radius: 0.25rem;
   box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%),
     0 1px 3px 0 rgb(0 0 0 / 12%);
   font-family: Roboto, sans-serif;
 }
 
-/* .card .card-img {
-  max-height: 400px;
-  max-width: 600px;
-} */
+.card-img {
+  object-fit: contain;
+}
+
+.card-img-overlap {
+  display: flex;
+  position: relative;
+  flex-flow: column wrap;
+}
+
+.card-img-overlap img {
+  height: 100%;
+  max-width: 100%;
+}
 
 /* BODY */
 
 .card-body {
-  padding: 1rem 1rem 0 1rem;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
 }
 
-.card-body .card-title {
-  font-size: 1.25rem;
-  margin-bottom: 0.25rem;
+.card-heading {
+  padding: 1rem;
 }
-.card-body .card-subtitle {
+
+.card-title {
+  font-size: 1.25rem;
+}
+.card-subtitle {
   color: #727289;
   font-size: 1rem;
-  margin-bottom: 0.25rem;
 }
 
-.card-body .card-text {
+.card-heading-overlap {
+  position: absolute;
+  padding: 1rem;
+  bottom: 0;
+  left: 0;
+}
+
+.card-heading-overlap .card-title {
+  color: white;
+}
+.card-heading-overlap .card-subtitle {
+  color: white;
+}
+
+.card1-text {
   font-size: 1rem;
-  margin: 1rem 0rem;
   font-weight: 200;
   color: #727272;
+  padding: 0.5rem 1rem 0 1rem;
 }
 
+.card2-text {
+  font-size: 1rem;
+  font-weight: 200;
+  color: #727272;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+}
 .card-body:hover {
   background-color: whitesmoke;
   cursor: pointer;
@@ -59,9 +97,14 @@ body {
 
 .card-footer {
   display: flex;
-  justify-content: space-around;
   align-items: center;
-  margin: 1rem 0rem;
+  flex-wrap: wrap;
+  padding: 0.5rem;
+}
+
+.card-actions {
+  display: flex;
+  justify-content: space-around;
   flex-wrap: wrap;
 }
 
@@ -77,6 +120,20 @@ body {
 .card-button:hover {
   background-color: whitesmoke;
   cursor: pointer;
+}
+
+.card-icons {
+  display: flex;
+  justify-content: space-around;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.card2-icons {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+  flex-wrap: wrap;
 }
 
 .card-footer span {
