@@ -1,0 +1,56 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 1rem 0;
+  font-family: Roboto, sans-serif;
+}
+.container {
+  margin: 0 auto;
+  width: 600px;
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: center; */
+}
+
+.chips-wrapper {
+  background-color: rgba(192, 192, 192, 0.2);
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.5rem 1rem;
+  border-radius: 16px;
+}
+
+.chips-basic {
+  background-color: rgba(192, 192, 192, 0.3);
+  color: black;
+  display: flex;
+  padding: 0.5rem 0.7rem;
+  border-radius: 16px;
+  margin: 0.3rem 0.5rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chip-icon {
+  border-radius: 50%;
+  padding: 0.3rem;
+}
+
+.chips-basic:hover,
+.chip-icon:hover {
+  background-color: rgba(192, 192, 192, 0.5);
+}
+
+.chips-input {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 16px;
+  outline: none;
+  flex: 1;
+}
