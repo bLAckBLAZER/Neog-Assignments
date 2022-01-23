@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Praise&family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+
+.dialog-box {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem;
+  max-width: 350px;
+  /* box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%),
+    0 1px 3px 0 rgb(0 0 0 / 12%); */
+  box-shadow: 0 0 15px rgb(192, 192, 192);
+  border-radius: 16px;
+}
+
+.dialog-box-scrollable {
+  max-height: 40vh;
+}
+
+.heading {
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+.dialog-box-text {
+  padding: 1rem;
+  color: #b4b4b4;
+}
+
+.dialog-box-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.dialog-box-scrollable .dialog-box-list {
+  overflow-y: auto;
+}
+
+.dialog-box-list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0.5rem 1rem;
+}
+
+.dialog-box-list-item input[type="radio"]:checked:after {
+  background-color: blueviolet;
+}
+
+.dialog-box-button {
+  padding: 0.5rem 0.8rem;
+  border: none;
+  color: blueviolet;
+  margin: 0 0.5rem;
+  background-color: white;
+  font-size: 1rem;
+  border-radius: 16px;
+}
+
+.dialog-box-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1rem;
+}
+
+i {
+  color: #b4b4b4;
+}
+
+.dialog-box-list-item:hover,
+.dialog-box-button:hover {
+  background-color: whitesmoke;
+}
