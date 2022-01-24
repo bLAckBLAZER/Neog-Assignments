@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Praise&family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  padding: 1rem 0;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.appbar {
+  display: flex;
+  align-items: center;
+  background: darkgray;
+  min-width: 300px;
+}
+
+.appbar-heading {
+  flex: 1;
+}
+
+.appbar i {
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+.bg-violet {
+  background: #6200ee;
+}
+
+.txt-white {
+  color: white;
+}

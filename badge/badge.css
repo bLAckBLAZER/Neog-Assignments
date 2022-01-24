@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Praise&family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  padding: 1rem 0;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.badge-container {
+  position: relative;
+  padding: 1rem 1rem 0 1rem;
+  width: fit-content;
+}
+
+.badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 50%;
+  font-size: 1rem;
+  padding: 0.15rem 0.4rem;
+  background: #685dd0;
+  color: white;
+}
+
+.badge-md {
+  font-size: 1.3em;
+}
+
+.badge-top-left-overlap {
+  top: 0.7rem;
+  left: 0.7rem;
+  right: auto;
+}
+
+.badge-top-right-overlap {
+  top: 0.7rem;
+  right: 0.7rem;
+}
+
+.button {
+  padding: 0.5rem 0.8rem;
+  border: none;
+  color: white;
+  background-color: #685dd0;
+  font-size: 1rem;
+  border-radius: 8px;
+}
+
+.bg-pink {
+  background-color: #ff4081;
+}
