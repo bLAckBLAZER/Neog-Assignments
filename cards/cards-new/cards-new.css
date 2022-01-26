@@ -72,6 +72,34 @@ body {
   cursor: pointer;
 }
 
+.card-txt-over-img {
+  position: relative;
+}
+
+.card-txt-over-img .card-heading {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.card-txt-over-img .card-title,
+.card-txt-over-img .card-subtitle {
+  color: white;
+}
+
+.card-horizontal .card-body {
+  flex-direction: row;
+}
+
+.card-horizontal .card-img {
+  height: 100px;
+  width: 100px;
+}
+
+.card-horizontal .card-text {
+  display: none;
+}
+
 /* FOOTER */
 
 .card-footer {

@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Praise&family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  padding: 1rem 0;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+.snackbar {
+  display: flex;
+  padding: 0.2rem 0.3rem;
+  align-items: center;
+  max-width: 500px;
+  position: fixed;
+  bottom: 1rem;
+  font-size: 0.9rem;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.snackbar-msg {
+  flex: 1;
+  padding: 0.5rem;
+}
+
+.snackbar-btn {
+  padding: 0.5rem;
+  background: none;
+  border: none;
+  color: #9980bb;
+  text-decoration: none;
+}
+
+.snackbar-btn:hover {
+  cursor: pointer;
+}
+
+.snackbar i {
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+
+.snackbar i:hover {
+  background-color: grey;
+  cursor: pointer;
+}
+
+.bg-black {
+  background-color: #333333;
+}
+
+.txt-white {
+  color: white;
+}

@@ -54,6 +54,14 @@ body {
   border-radius: 8px;
 }
 
+.button:hover {
+  cursor: pointer;
+}
+
 .bg-pink {
   background-color: #ff4081;
+}
+
+.hidden {
+  display: none;
 }
