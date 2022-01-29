@@ -1,0 +1,38 @@
+.tabs {
+  display: flex;
+  /* justify-content: space-between; */
+  max-width: 800px;
+  border: 0.5px solid black;
+}
+
+.bg-blue {
+  background-color: grey;
+}
+
+.tab-item {
+  padding: 1rem;
+  flex: 1;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  border: none;
+  background: whitesmoke;
+}
+
+.tab-item:focus {
+  border-bottom: 2px solid #6200ee;
+  background-color: #e8ddf9;
+  color: #6200ee;
+}
+
+.tab-item:hover {
+  cursor: pointer;
+}
+
+.tabs-scroll {
+  overflow-x: auto;
+}
+
+.tabs-scroll .tab-item {
+  min-width: 166px;
+}

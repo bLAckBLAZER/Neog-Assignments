@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/12af55b294.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./index.css" />
+    <title>Assignment 1</title>
+  </head>
+  <body>
+    <div class="components-wrapper">
+      <div class="component-container">
+        <div class="component-heading">1. Drawer</div>
+        <div class="component-data">
+          <div class="drawer">
+            <div class="drawer-heading">
+              <div class="drawer-title">Title</div>
+              <div class="drawer-subtitle">subtitle</div>
+            </div>
+            <div class="drawer-list">
+              <div class="drawer-element">
+                <i class="fas fa-inbox"></i>
+                <div class="drawer-element-name">Inbox</div>
+              </div>
+              <div class="drawer-element">
+                <i class="fas fa-inbox"></i>
+                <div class="drawer-element-name">Inbox</div>
+              </div>
+              <div class="drawer-element">
+                <i class="fas fa-inbox"></i>
+                <div class="drawer-element-name">Inbox</div>
+              </div>
+              <div class="drawer-element">
+                <i class="fas fa-inbox"></i>
+                <div class="drawer-element-name">Inbox</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="component-container">
+        <div class="component-heading">2. DialogBox</div>
+        <div class="component-data">
+          <div class="dialog-box">
+            <h3 class="dialog-box-heading">Dialog Header</h3>
+            <p class="dialog-box-text">
+              Dialog Text Dialog Text Dialog Text Dialog Text Dialog Text Dialog
+              Text Dialog Text Dialog Text Dialog Text
+            </p>
+            <div class="dialog-box-footer">
+              <button class="dialog-box-button">ACTION 1</button>
+              <button class="dialog-box-button">ACTION 2</button>
+            </div>
+          </div>
+
+          <div class="dialog-box">
+            <h3 class="dialog-box-heading">Dialog Header</h3>
+            <div class="dialog-box-list">
+              <div class="dialog-box-list-item">
+                <i class="fas fa-user-circle fa-2x"></i>
+                <p class="dialog-box-text">Item 1</p>
+              </div>
+              <div class="dialog-box-list-item">
+                <i class="fas fa-user-circle fa-2x"></i>
+                <p class="dialog-box-text">Item 2</p>
+              </div>
+              <div class="dialog-box-list-item">
+                <i class="fas fa-user-circle fa-2x"></i>
+                <p class="dialog-box-text">Item 3</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="dialog-box dialog-box-scrollable">
+            <h3 class="dialog-box-heading">Dialog Header</h3>
+            <div class="dialog-box-list">
+              <div class="dialog-box-list-item">
+                <input
+                  type="radio"
+                  id="item1"
+                  name="dialog-list-input"
+                  value="item1"
+                />
+                <label for="item1" class="dialog-box-text">Item 1</label>
+              </div>
+              <div class="dialog-box-list-item">
+                <input
+                  type="radio"
+                  id="item2"
+                  name="dialog-list-input"
+                  value="item2"
+                />
+                <label for="item2" class="dialog-box-text">Item 2</label>
+              </div>
+              <div class="dialog-box-list-item">
+                <input
+                  type="radio"
+                  id="item3"
+                  name="dialog-list-input"
+                  value="item3"
+                />
+                <label for="item3" class="dialog-box-text">Item 3</label>
+              </div>
+              <div class="dialog-box-list-item">
+                <input
+                  type="radio"
+                  id="item4"
+                  name="dialog-list-input"
+                  value="item4"
+                />
+                <label for="item4" class="dialog-box-text">Item 4</label>
+              </div>
+              <div class="dialog-box-list-item">
+                <input
+                  type="radio"
+                  id="item5"
+                  name="dialog-list-input"
+                  value="item5"
+                />
+                <label for="item5" class="dialog-box-text">Item 5</label>
+              </div>
+            </div>
+            <div class="dialog-box-footer">
+              <button class="dialog-box-button">ACTION 1</button>
+              <button class="dialog-box-button">ACTION 2</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="component-container">
+        <div class="component-heading">3. Cards with variants</div>
+        <div class="component-row-display">
+          <!-- <div class="component-data"> -->
+          <!-- Basic card -->
+          <div class="card">
+            <div class="card-body">
+              <div>
+                <img
+                  src="https://material-components.github.io/material-components-web-catalog/static/media/photos/3x2/2.jpg"
+                  alt=""
+                  class="card-img"
+                />
+              </div>
+              <div class="card-heading">
+                <h2 class="card-title">Nature at best</h2>
+                <h4 class="card-subtitle">by Omkar Jadhav</h4>
+              </div>
+              <p class="card-text">
+                Visit ten places on our planet that are undergoing the biggest
+                changes today.
+              </p>
+            </div>
+            <div class="card-footer">
+              <div class="card-actions">
+                <button class="card-button">READ</button>
+                <button class="card-button">BOOKMARK</button>
+              </div>
+              <div class="card-icons">
+                <span class="material-icons"> favorite_border </span>
+                <span class="material-icons"> share </span>
+                <span class="material-icons"> more_vert </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2: Heading at top -->
+          <div class="card card-heading-top">
+            <div class="card-body">
+              <div>
+                <img
+                  src="https://material-components.github.io/material-components-web-catalog/static/media/photos/3x2/2.jpg"
+                  alt=""
+                  class="card-img"
+                />
+              </div>
+              <div class="card-heading">
+                <h2 class="card-title">Nature at best</h2>
+                <h4 class="card-subtitle">by Omkar Jadhav</h4>
+              </div>
+              <p class="card-text">
+                Visit ten places on our planet that are undergoing the biggest
+                changes today.
+              </p>
+            </div>
+            <div class="card-footer">
+              <div class="card-actions">
+                <button class="card-button">READ</button>
+                <button class="card-button">BOOKMARK</button>
+              </div>
+              <div class="card-icons">
+                <span class="material-icons"> favorite_border </span>
+                <span class="material-icons"> share </span>
+                <span class="material-icons"> more_vert </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3: Card with no icons -->
+          <div class="card card-no-icons">
+            <div class="card-body">
+              <div>
+                <img
+                  src="https://material-components.github.io/material-components-web-catalog/static/media/photos/3x2/2.jpg"
+                  alt=""
+                  class="card-img"
+                />
+              </div>
+              <div class="card-heading">
+                <h2 class="card-title">Nature at best</h2>
+                <h4 class="card-subtitle">by Omkar Jadhav</h4>
+              </div>
+              <p class="card-text">
+                Visit ten places on our planet that are undergoing the biggest
+                changes today.
+              </p>
+            </div>
+            <div class="card-footer">
+              <div class="card-actions">
+                <button class="card-button">READ</button>
+                <button class="card-button">BOOKMARK</button>
+              </div>
+              <div class="card-icons">
+                <span class="material-icons"> favorite_border </span>
+                <span class="material-icons"> share </span>
+                <span class="material-icons"> more_vert </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4: Card with no action buttons -->
+          <div class="card card-no-buttons">
+            <div class="card-body">
+              <div>
+                <img
+                  src="https://material-components.github.io/material-components-web-catalog/static/media/photos/3x2/2.jpg"
+                  alt=""
+                  class="card-img"
+                />
+              </div>
+              <div class="card-heading">
+                <h2 class="card-title">Nature at best</h2>
+                <h4 class="card-subtitle">by Omkar Jadhav</h4>
+              </div>
+              <p class="card-text">
+                Visit ten places on our planet that are undergoing the biggest
+                changes today.
+              </p>
+            </div>
+            <div class="card-footer">
+              <div class="card-actions">
+                <button class="card-button">READ</button>
+                <button class="card-button">BOOKMARK</button>
+              </div>
+              <div class="card-icons">
+                <span class="material-icons"> favorite_border </span>
+                <span class="material-icons"> share </span>
+                <span class="material-icons"> more_vert </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 5: Card with text over image -->
+          <div class="card">
+            <div class="card-body">
+              <div class="card-txt-over-img">
+                <div>
+                  <img
+                    src="https://material-components.github.io/material-components-web-catalog/static/media/photos/3x2/2.jpg"
+                    alt=""
+                    class="card-img"
+                  />
+                </div>
+                <div class="card-heading">
+                  <h2 class="card-title">Nature at best</h2>
+                  <h4 class="card-subtitle">by Omkar Jadhav</h4>
+                </div>
+              </div>
+              <p class="card-text">
+                Visit ten places on our planet that are undergoing the biggest
+                changes today.
+              </p>
+            </div>
+            <div class="card-footer">
+              <div class="card-actions">
+                <button class="card-button">READ</button>
+                <button class="card-button">BOOKMARK</button>
+              </div>
+              <div class="card-icons">
+                <span class="material-icons"> favorite_border </span>
+                <span class="material-icons"> share </span>
+                <span class="material-icons"> more_vert </span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 6: Horizontal card -->
+          <div class="card card-horizontal">
+            <div class="card-body">
+              <div>
+                <img
+                  src="https://material-components.github.io/material-components-web-catalog/static/media/photos/3x2/2.jpg"
+                  alt=""
+                  class="card-img"
+                />
+              </div>
+              <div class="card-heading">
+                <h2 class="card-title">Nature at best</h2>
+                <h4 class="card-subtitle">by Omkar Jadhav</h4>
+              </div>
+              <p class="card-text">
+                Visit ten places on our planet that are undergoing the biggest
+                changes today.
+              </p>
+            </div>
+            <div class="card-footer">
+              <div class="card-actions">
+                <button class="card-button">READ</button>
+                <button class="card-button">BOOKMARK</button>
+              </div>
+              <div class="card-icons">
+                <span class="material-icons"> favorite_border </span>
+                <span class="material-icons"> share </span>
+                <span class="material-icons"> more_vert </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="component-container">
+        <div class="component-heading">4. Chips</div>
+        <div class="component-data">
+          <div class="chips-wrapper">
+            <div class="chips-basic">
+              <span class="chip-icon material-icons"> reorder </span>
+              <p>Omkar</p>
+              <span class="chip-icon material-icons"> clear </span>
+            </div>
+
+            <input
+              type="text"
+              name="input"
+              class="chips-input"
+              placeholder="Enter input..."
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="component-container">
+        <div class="component-heading">5. AppBar</div>
+        <div class="component-data">
+          <nav class="appbar bg-violet txt-white">
+            <i class="fas fa-bars"></i>
+            <h3 class="appbar-heading">San Francisco, CA</h3>
+            <i class="fas fa-download"></i>
+            <i class="fas fa-print"></i>
+            <i class="fas fa-bookmark"></i>
+          </nav>
+        </div>
+      </div>
+
+      <div class="component-container">
+        <div class="component-heading">6. Badge</div>
+        <div class="component-data">
+          <div class="badge-container">
+            <p>Text with a badge<span class="badge">4</span></p>
+          </div>
+
+          <div class="badge-container">
+            <p>Text with a large badge<span class="badge badge-md">4</span></p>
+          </div>
+
+          <br />
+          <p>Button with a badge on the left</p>
+          <div class="badge-container">
+            <button class="badge-button">
+              Action<span class="badge badge-top-left-overlap bg-pink">4</span>
+            </button>
+          </div>
+
+          <br />
+          <p>Button toggles badge visibility</p>
+          <div class="badge-container">
+            <button class="badge-button button-hide">
+              Hide<span class="badge badge-hide badge-top-right-overlap bg-pink"
+                >4</span
+              >
+            </button>
+          </div>
+
+          <br />
+          <p>Icon with a badge</p>
+          <div class="badge-container">
+            <i class="fas fa-home fa-3x"
+              ><span class="badge badge-top-right-overlap bg-pink">4</span></i
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="component-container">
+        <div class="component-heading">7. Tabs</div>
+        <div class="component-data">
+          <div class="tabs center">
+            <button class="tab-item">TAB 1</button>
+            <button class="tab-item">TAB 2</button>
+            <button class="tab-item">TAB 3</button>
+          </div>
+
+          <br />
+
+          <div class="tabs tabs-scroll center">
+            <button class="tab-item">TAB 1</button>
+            <button class="tab-item">TAB 2</button>
+            <button class="tab-item">TAB 3</button>
+            <button class="tab-item">TAB 3</button>
+            <button class="tab-item">TAB 3</button>
+            <button class="tab-item">TAB 3</button>
+            <button class="tab-item">TAB 3</button>
+            <button class="tab-item">TAB 3</button>
+            <button class="tab-item">TAB 3</button>
+            <button class="tab-item">TAB 3</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="component-container">
+        <div class="component-heading">8. SnackBar</div>
+        <div class="component-data">
+          <div class="snackbar bg-black txt-white">
+            <p class="snackbar-msg">Can't send photo. Retry in 5 seconds.</p>
+            <a href="#" class="snackbar-btn">RETRY</a>
+            <i class="fas fa-times"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./scripts/chips.js"></script>
+    <script src="./scripts/badge.js"></script>
+  </body>
+</html>

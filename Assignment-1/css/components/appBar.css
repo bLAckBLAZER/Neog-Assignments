@@ -1,0 +1,24 @@
+.appbar {
+  display: flex;
+  align-items: center;
+  background: darkgray;
+  min-width: 300px;
+  padding: 0.5rem 0.5rem;
+}
+
+.appbar-heading {
+  flex: 1;
+}
+
+.appbar i {
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+.bg-violet {
+  background: #6200ee;
+}
+
+.txt-white {
+  color: white;
+}
